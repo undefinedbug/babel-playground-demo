@@ -9,8 +9,7 @@ vue<template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import parse from '../../playground/parse'
-import transform from '../../playground/transform.js'
+import compiler from '../../playground/compiler'
 import code from '!raw-loader!./code.vue'
 
 @Component
@@ -23,11 +22,7 @@ export default class TreeeDemo extends Vue {
 
   onClick() {
     debugger
-    this.parseResult = parse(code)
-    if (!this.parseResult.errors.length) {
-      const result = transform(this.parseResult.script.content)
-      this.codeStr = result.error || result.code
-    }
+    this.parseResult = compiler(code)
   }
 }
 </script>

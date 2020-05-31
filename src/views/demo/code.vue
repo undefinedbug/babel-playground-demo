@@ -8,9 +8,9 @@ import { Component, Vue } from 'vue-property-decorator'
 export default @Component class Code extends Vue {
   name: string = ''
 
-  // async getValue() {
-  //   return 'sssssss'
-  // }
+  async getValue() {
+    return 'sssssss'
+  }
 }
 </script>
 
