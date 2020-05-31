@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="blurred_idxztzcbg" width="1536" height="380" class="avatar-blur" preserveAspectRatio="none" version="1.1" viewBox="0 0 1536 380">
+    <filter id="blur_idxztzcbg">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
+    </filter>
+    <image width="1536" height="380" x="0" y="0" externalResourcesRequired="true" preserveAspectRatio="none" style="filter:url(#blur_idxztzcbg)" xlink:href="img/glass_wall_468px_1204948_easyicon.net.png"/>
+</svg>
